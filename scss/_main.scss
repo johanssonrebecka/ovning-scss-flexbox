@@ -1,0 +1,14 @@
+/*===== MAIN =====*/ 
+
+main {
+    section{
+        padding: 4em 1em;
+        background-color: $primary-color;
+       
+        h2:first-of-type { //den första h2:an i "section"...
+            margin-top: 0;
+        }
+    } &:nth-of-type(even) { // dom jämna talen i "section"...
+        background-color: $secondary-color;
+}
+}
